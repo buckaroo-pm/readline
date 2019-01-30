@@ -1,0 +1,9 @@
+manifest = "33ab81576a4cbb76f3d8d89a169be0b178a3f5b32efa39ca3209c57d13b07a97"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-ncurses"
+target = "//:ncurses"
+
+[lock."github.com/buckaroo-pm/pkg-config-ncurses"]
+versions = [ "branch=master" ]
+revision = "02958fa2d2be17de4a0c7c1f5fecbadbf46d05ca"

@@ -1,0 +1,5 @@
+targets = [ "//:readline" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-ncurses"
+version = "*"

@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'histexamp',
+  srcs = [
+    'histexamp.c',
+  ],
+  deps = [
+    '//:readline',
+  ],
+)
+
+cxx_binary(
+  name = 'rlbasic',
+  srcs = [
+    'rlbasic.c',
+  ],
+  deps = [
+    '//:readline',
+  ],
+)
