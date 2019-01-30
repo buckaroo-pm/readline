@@ -9,6 +9,10 @@ addons:
     packages:
       - g++-6
       - gcc-6
+  homebrew:
+    packages:
+      - pkg-config
+      - ncurses
 
 os:
   - linux
@@ -21,6 +25,7 @@ cache:
   directories:
     - $HOME/.buckaroo/cache
     - $TRAVIS_BUILD_DIR/bin
+    - $HOME/Library/Caches/Homebrew
 
 osx_image: xcode9.3
 
