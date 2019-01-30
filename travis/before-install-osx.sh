@@ -1,6 +1,7 @@
 #!/bin/bash
 
-export PKG_CONFIG_PATH=/opt/local/lib/pkgconfig:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/Cellar/pkg-config
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/opt/local/lib/pkgconfig
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/opt/ncurses/lib/pkgconfig
 
 c++ --version
