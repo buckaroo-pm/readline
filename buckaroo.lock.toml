@@ -1,4 +1,4 @@
-manifest = "33ab81576a4cbb76f3d8d89a169be0b178a3f5b32efa39ca3209c57d13b07a97"
+manifest = "92912fabfb744238f17c41cc0e29e2098b3632b08970b4b75865de000b01db6a"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/pkg-config-ncurses"
