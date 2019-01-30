@@ -1,6 +1,6 @@
 #!/bin/bash
 
-locate ncurses.pc
+brew outdated "pkg-config" || brew upgrade "pkg-config"
 
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/Cellar/pkg-config
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/opt/local/lib/pkgconfig
