@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/opt/ncurses/lib/pkgconfig
+
 c++ --version
 g++ --version
 gcc --version
